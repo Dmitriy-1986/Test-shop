@@ -16,7 +16,6 @@ body {
     padding: 0;
 }
 
-/*header*/
 header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -32,11 +31,10 @@ header {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: 79px;
+    height: 100%;
     padding: 5px 0;
     background-color: black;
 }
-
 .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -51,7 +49,7 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 1216px;
+    width: 90%;
     height: 79px;
     padding: 5px 0;
     background-color: black;
@@ -79,6 +77,22 @@ header {
     text-decoration: none;
 }
 
+.container-collage-size {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
 .container-collage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -95,7 +109,7 @@ header {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 1216px;
+    width: 90%;
 }
 
 .container-collage-title {
@@ -160,7 +174,9 @@ header {
 .collage p {
     font-weight: bold;
     font-size: 14px;
+    
     color: #7d7d7d;
+   
     text-align: center;
 }
 
@@ -178,7 +194,7 @@ header {
 #slider {
     margin-top: 30px;
     margin-bottom: 5px;
-    width: 1216px;
+    width: 90%;
     height: 300px;
     overflow: hidden; 
     border-radius: 5px;
@@ -205,6 +221,7 @@ header {
     left: 0;
     -webkit-animation: scroller 30s infinite;
             animation: scroller 30s infinite;
+
 }
 
 .slide {
@@ -262,7 +279,7 @@ header {
     }
 }
 
-/*footer*/
+/*contant-block*/
 footer {
     margin-top: 100px;
     display: -webkit-box;
@@ -282,7 +299,6 @@ footer {
     height: 100%;
     background-color: rgb(0, 0, 0);
 }
-
 .footer-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -299,7 +315,7 @@ footer {
             align-items: flex-start;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 1216px;
+    width: 90%;
     height: 387px;
     margin-top: 10px;
     background-color: rgb(0, 0, 0);
@@ -352,4 +368,9 @@ footer {
 
 p { 
     color: white;
+}
+
+.footer-about {
+    margin-left: 50px;
+    margin-right: 10px;
 }
