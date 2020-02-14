@@ -69,9 +69,6 @@
     border-radius: 5px;
     margin-top: 10px;
 }
-.footer-block {
-    height:100%;
-}
 }
 
 @media (max-width: 350px)  {
